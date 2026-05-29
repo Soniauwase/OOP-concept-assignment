@@ -33,7 +33,7 @@ import java.util.Scanner;
                     Car car = new Car(CarBrand, 5000);
                     System.out.print("enter day you want to rent car ");
                     int day = input.nextInt();
-                    System.out.println(car.calculateRentalCost(3));
+                    System.out.println(car.calculateRentalCost(day));
 
                     break;
                 case "2":
@@ -45,7 +45,7 @@ import java.util.Scanner;
                     System.out.print("enter the day you rent the bike");
                     int  bikeDay = input.nextInt();
                     Bike v1 = new Bike(bikeBrand, 3000);
-                    System.out.println(v1.calculateRentalCost(5));
+                    System.out.println(v1.calculateRentalCost(bikeDay));
                     break;
                 case "3":
                     System.out.println(" thank you for working with us!");
